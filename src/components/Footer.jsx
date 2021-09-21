@@ -1,16 +1,30 @@
 import React from "react";
+import {copyFunction} from "../js/copyFunction";
 
 const  Footer = () => (
-    <div className="flex flex-row justify-center p-4">
-        <div className="flex flex-col">
+    <div className="flex flex-row justify-center py-6 px-2 sm:p-6 text-2xl bg-lightBlue text-center">
+        <div className="flex flex-col mx-8">
             <div>
-                <span className="bi bi-github"></span>
+                <a className="hover:bg-lightWhite rounded-full p-2"><span className="bi bi-github"></span></a>
             </div>
-            <div>
-                <span className="bi bi-linkedin"></span>
+            <div className="mt-2">
+                <span>Github</span>
             </div>
+        </div>
+        <div className="flex flex-col mx-8">
             <div>
-                <span>spverroen@gmail.com</span>
+                <a className="hover:bg-lightWhite rounded-full p-2" onClick={copyFunction}><span className="bi bi-envelope-fill"></span></a>
+            </div>
+            <div className="mt-2">
+                <span>Gmail</span>
+            </div>
+        </div>
+        <div className="flex flex-col mx-8">
+            <div>
+                <a className="hover:bg-lightWhite rounded-full p-2"><span className="bi bi-linkedin"></span></a>
+            </div>
+            <div className="mt-2">
+                <span>LinkedIn</span>
             </div>
         </div>
     </div>
