@@ -1,7 +1,7 @@
 import React from "react";
 
 const  Header = () => (
-    <div className="flex flex-row justify-between py-6 px-2 sm:p-6 text-2xl bg-lightBlue">
+    <div className="flex flex-row justify-between py-6 px-2 sm:p-6 text-2xl sm:text-3xl lg:text-4xl bg-lightBlue">
         <div>
             <span className="text-lightWhite">Sven Verroen</span>
         </div>

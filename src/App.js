@@ -5,6 +5,7 @@ import Intro from './components/Intro';
 import Work from "./components/Work";
 import Footer from "./components/Footer";
 import React, { Component } from 'react';
+import Skills from "./components/Skills";
 
 class App extends React.Component {
     render() {
@@ -18,6 +19,7 @@ class App extends React.Component {
                 </div>
                 <Aboutme />
                 <Work />
+                <Skills />
                 <Footer />
             </div>
         );

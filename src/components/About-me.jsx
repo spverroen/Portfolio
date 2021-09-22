@@ -3,7 +3,7 @@ import Picture from "../images/sven.jpg";
 
 const  Aboutme = () => (
     <div className="flex flex-col justify-center m-auto text-lightGray text-4xl lg:text-6xl sm:text-5xl max-w-screen-lg" id="about-me">
-        <span className="mb-24 text-center text-6xl">About me</span>
+        <span className="mb-8 lg:mb-24 text-center text-6xl">About me</span>
         <div className="flex flex-row justify-between">
             <span className="text-xl sm:text-2xl w-7/12 m-auto lg:m-0 text-lightWhite">
                 <div className="my-4">I'm a 18 year old Utrecht-based student. This my 3rd and final year of this study as a software developer.</div>
