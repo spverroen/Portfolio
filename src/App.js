@@ -1,11 +1,10 @@
-import logo from './logo.svg';
 import './App.css';
 import Header from './components/Header';
 import Aboutme from './components/About-me';
 import Intro from './components/Intro';
-import React, { Component } from 'react';
-import Picture from './images/sven.jpg';
+import Work from "./components/Work";
 import Footer from "./components/Footer";
+import React, { Component } from 'react';
 
 class App extends React.Component {
     render() {
@@ -18,6 +17,7 @@ class App extends React.Component {
                     </div>
                 </div>
                 <Aboutme />
+                <Work />
                 <Footer />
             </div>
         );

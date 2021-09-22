@@ -16,7 +16,16 @@ module.exports = {
         },
         lightGray: {
           DEFAULT: '#42454A'
-        }
+        },
+        pars:{
+          DEFAULT: "#F59C57",
+        },
+        flexzipper: {
+          DEFAULT: '#3690F7'
+        },
+        multiversum:{
+          DEFAULT: "#1DD1A1",
+        },
       },
       fontFamily: {
         'sans': ['Roboto', 'Helvetica', 'Arial', 'sans-serif']
