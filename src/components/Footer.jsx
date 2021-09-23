@@ -5,7 +5,7 @@ const  Footer = () => (
     <div className="flex flex-row justify-center py-6 px-2 sm:p-6 text-xl bg-lightBlue text-center">
         <div className="flex flex-col mx-8">
             <div>
-                <a className="hover:bg-lightWhite rounded-full p-2 text-3xl"><span className="bi bi-github"></span></a>
+                <a href="https://github.com/spverroen" target="_blank" className="hover:bg-lightWhite rounded-full p-2 text-3xl"><span className="bi bi-github"></span></a>
             </div>
             <div className="mt-2">
                 <span>Github</span>
@@ -21,7 +21,7 @@ const  Footer = () => (
         </div>
         <div className="flex flex-col mx-8">
             <div>
-                <a className="hover:bg-lightWhite rounded-full p-2 text-3xl"><span className="bi bi-linkedin"></span></a>
+                <a href="https://www.linkedin.com/in/sven-verroen-048867199/" target="_blank" className="hover:bg-lightWhite rounded-full p-2 text-3xl"><span className="bi bi-linkedin"></span></a>
             </div>
             <div className="mt-2">
                 <span>LinkedIn</span>
