@@ -7,8 +7,8 @@ const  Intro = () => (
         <span className="my-1">I'm a</span>
         <span className="text-lightWhite my-1">full-stack web developer.</span>
         <span className="mt-8 flex flex-row justify-center text-xl sm:text-2xl lg:text-3xl">
-                <span className="p-2 border-lightBlue border-2 text-lightBlue mr-4"><a href="#about-me">About me</a></span>
-                <span className="p-2 border-lightBlue border-2 text-lightBlue ml-4"><a href="#work">My work</a></span>
+                <span className="p-2 border-lightBlue border-2 text-lightBlue mr-4 transition duration-300 ease-in-out transform hover:scale-110"><a href="#about-me">About me</a></span>
+                <span className="p-2 border-lightBlue border-2 text-lightBlue ml-4 transition duration-300 ease-in-out transform hover:scale-110"><a href="#work">My work</a></span>
         </span>
     </div>
 )

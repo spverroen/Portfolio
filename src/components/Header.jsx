@@ -6,8 +6,8 @@ const  Header = () => (
             <span className="text-lightWhite">Sven Verroen</span>
         </div>
         <div>
-            <a href="https://github.com/spverroen" target="_blank" className="hover:bg-lightWhite rounded-full p-2 mr-2"><span className="bi bi-github"></span></a>
-            <a href="https://www.linkedin.com/in/sven-verroen-048867199/" target="_blank" className="hover:bg-lightWhite rounded-full p-2"><span className="bi bi-linkedin"></span></a>
+            <a href="https://github.com/spverroen" target="_blank" className="transition duration-300 ease-in-out hover:bg-lightWhite rounded-full p-2 mr-2"><span className="bi bi-github"></span></a>
+            <a href="https://www.linkedin.com/in/sven-verroen-048867199/" target="_blank" className="transition duration-300 ease-in-out hover:bg-lightWhite rounded-full p-2"><span className="bi bi-linkedin"></span></a>
         </div>
     </div>
 )
