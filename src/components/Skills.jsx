@@ -1,7 +1,7 @@
 import React from "react";
 
 const  Skills = () => (
-    <div className="flex flex-col justify-center m-auto text-lightGray text-4xl sm:text-5xl lg:text-6xl max-w-screen-lg" id="about-me">
+    <div className="flex flex-col justify-center m-auto text-lightGray text-4xl sm:text-5xl lg:text-6xl max-w-screen-lg mb-8 lg:mb-24" id="about-me">
         <span className="my-8 lg:my-24 text-center text-6xl">Skills</span>
         <div className="grid grid-cols-2 text-lightWhite text-xl sm:text-4xl lg:text-5xl">
             <div className="text-right pr-4 lg:pr-8 flex flex-col">
